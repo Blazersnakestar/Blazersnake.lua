@@ -5,6 +5,7 @@ local a = workspace.Gravity
 
 lib:SetTheme("Default")
 lib:AddButton("Start Hub", function()
+            print('Hub is Loaded!')
     local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("Blazersnake Hub", "Default")
 
