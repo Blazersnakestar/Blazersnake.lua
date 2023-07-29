@@ -35,10 +35,8 @@ tab.newSlider("Slider", "Epic slider", 1000, false, function(num)
 end)
 end)
 
-lib:AddToggle("Toggle Moon Gravity", function(state)
+lib:AddToggle("Reset Character", function(state)
     if state then
-        workspace.Gravity = 60
-    else
-        workspace.Gravity = a
+    game.Players.LocalPlayer.Character.Head:Destroy()
     end
 end, false)
