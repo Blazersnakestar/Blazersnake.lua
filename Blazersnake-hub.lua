@@ -1,5 +1,5 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Arceus-X-UI-Library/main/source.lua"))()
-lib:SetTitle("My Epik Haxc")
+lib:SetTitle("Blazersnake Hub | Start")
 lib:SetIcon("http://www.roblox.com/asset/?id=9178187770")
 local a = workspace.Gravity
 
